@@ -10,7 +10,7 @@ export default function NavBar() {
   const icons = [faMagnifyingGlass, faUser, faHeart, faBagShopping]
 
   return (
-    <nav className="bg-white sticky top-0 z-50 py-2 px-7 md:px-8 flex   justify-between items-center">
+    <nav className="bg-white sticky top-0 z-50 px-7 md:px-8 flex justify-evenly items-center">
       <img src="/brandlogo.png" alt="logo" className="w-27 md:w-30 " />
       
       <div className="flex flex-wrap justify-center items-center gap-4  md:mt-0">
