@@ -77,7 +77,7 @@ export default function Footer() {
       </div>
 
       {/* Copyright Section */}
-      <div className="bg-gray-800 text-white py-4 text-center">
+      <div className="bg-gray-800 text-2xl text-white py-4 text-center">
         <p className="text-sm">
           © {new Date().getFullYear()} The Souled Store. All rights reserved.
         </p>
