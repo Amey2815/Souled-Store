@@ -10,16 +10,16 @@ export default function NavBar() {
   const icons = [faMagnifyingGlass, faUser, faHeart, faBagShopping]
 
   return (
-    <nav className="bg-white sticky top-0 z-50 px-7 md:px-8 flex justify-evenly items-center">
+    <nav className="bg-white sticky top-0 z-50 px-5 md:px-8 max-w-full flex justify-evenly items-center overflow-hidden">
       <img src="/brandlogo.png" alt="logo" className="w-27 md:w-30  " />
       
       <div className="flex flex-wrap justify-center items-center gap-4 md:mt-0">
-        <div className='hidden md:flex gap-6 '>
+        <div className='hidden md:flex gap-2 '>
         {navItems.map((item) => (
           <a 
             key={item}
             href="#" 
-            className="text-gray-600 text-sm  font-semibold uppercase hover:text-[#ED2D2F] hover:border-b-2 hover:border-[#ED2D2F] px-2 py-1"
+            className="text-gray-600 text-sm w-full font-semibold uppercase hover:text-[#ED2D2F] hover:border-b-2 hover:border-[#ED2D2F] px-2 py-1"
           >
             {item}
           </a>

@@ -23,7 +23,7 @@ const WomenSlider = () => {
               key={index}
               src={img} 
               alt={`Slide ${index + 1}`}
-              className=" w-[700px] md:w-full h-[500px] object-cover flex-shrink-0"
+              className="  md:w-full h-full object-cover flex-shrink-0"
             />
           ))}
         </div>
