@@ -22,7 +22,7 @@ export default function DropOfTheWeek() {
                 alt={item.alt}
                 className="w-full   md:h-full  object-cover transform transition-transform duration-300 hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              
             </div>
           ))}
         </div>

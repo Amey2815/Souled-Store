@@ -10,33 +10,20 @@ export default function TopBar() {
 
   return (
     <div className="bg-[#E11B23] h-12 flex flex-col md:flex-row justify-between items-center px-4 md:px-8">
-      {/* <div className="flex order-1 md:order-2 md:ml-40 ml-0 ">
-        {['Women', 'Men', 'Kids'].map((item, index) => (
-          <div 
-            key={item}
-            className={`h-12 px-5 flex items-center justify-center 
-              ${index === 1 ? 'bg-white' : 'bg-[#ed2d2f]'} 
-              border border-black`}
-          >
-            <a href="#" className={`text-sm font-bold uppercase 
-              ${index === 1 ? 'text-black' : 'text-white'}`}>
-              {item}
-            </a>
-          </div>
-        ))}
-      </div> */}
+
 
       <div className="flex order-1 md:order-2 md:ml-40 ml-0">
         {categories.map((item) => (
           <div
             key={item}
-            onClick={() => setSelected(item)}
+            
             className={`h-12 px-5 flex items-center justify-center cursor-pointer
       ${selected === item ? 'bg-white' : 'bg-[#ed2d2f]'}
       border border-black transition-colors duration-200`}
           >
             <Link
               to={`/${item.toLowerCase()}`}
+              onClick={() => setSelected(item)}
               className={`text-sm font-bold uppercase 
         ${selected === item ? 'text-black' : 'text-white'}`}
             >

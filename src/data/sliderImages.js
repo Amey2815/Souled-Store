@@ -13,3 +13,21 @@ export const images = [
     '/women4.png',
     '/women5.png'
   ]
+
+  export const WomenDropItems = [
+    { src: '/look1.png'},
+    { src: '/look2.png'},
+    { src: '/look3.png'}
+  ]
+
+  export const Womencategory = [
+    { src: "/WomenCat1.png", alt: "Shirts" },
+    { src: "/WomenCat2.png", alt: "Pants" },
+    { src: "/WomenCat3.png", alt: "Oversized" },
+    { src: "/WomenCat4.png", alt: "tops" },
+    { src: "/WomenCat5.png", alt: "sneakers" },
+    { src: "/WomenCat6.png", alt: "dresses" },
+    { src: "/WomenCat7.png", alt: "pants" },
+    { src: "/WomenCat8.png", alt: "jackets" },
+    { src: "/WomenCat9.png", alt: "accessories" },
+  ]
