@@ -1,20 +1,22 @@
 import TopBar from './components/TopBar'
 import NavBar from './components/NavBar'
-import Slider from './components/Slider'
-import DropOfTheWeek from './components/DropOfTheWeek'
-import Categories from './components/Categories'
 import Footer from './components/Footer'
+import { Route, Routes } from 'react-router-dom'
+import Mens from './pages/Mens/Mens'
+import Womens from './pages/Womens/Womens'
+import Kids from './pages/Kids/Kids'
 
 export default function App() {
   return (
     <div className="font-sans">
       <TopBar />
       <NavBar />
-      <main>
-        <Slider />
-        <DropOfTheWeek />
-        <Categories />
-      </main>
+      <Routes>
+        <Route path='/' element={<Mens />}/>
+        <Route path='/men' element={<Mens />} />
+        <Route path='/women' element={<Womens />} />
+        <Route path='/kids' element={<Kids/>} />
+      </Routes>
       <Footer />
     </div>
   )

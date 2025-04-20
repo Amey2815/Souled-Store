@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { images } from '../data/sliderImages'
+import { images } from '../../data/sliderImages'
 
 export default function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0)

@@ -5,3 +5,11 @@ export const images = [
     '/homepage__banner_T2_UrVXARg.png',
     '/HRMNY-HOMRPAGE.png'
   ]
+
+  export const images2 = [
+    '/women1.png',
+    '/women2.png',
+    '/women3.png',
+    '/women4.png',
+    '/women5.png'
+  ]
