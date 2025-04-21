@@ -4,12 +4,12 @@ export default function Footer() {
       {/* Part 1 - Branding Section */}
       <div className="bg-[#E71318] text-white">
         <div className="py-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold uppercase">
+          <h2 className="text-2xl md:text-4xl font-bold uppercase">
             HOMEGROWN INDIAN BRAND
           </h2>
         </div>
         <div className="bg-white py-6">
-          <p className="text-3xl md:text-4xl text-center text-gray-800 font-bold">
+          <p className="text-2xl md:text-4xl text-center text-gray-800 font-bold">
             Over 6 Million Happy Customers
           </p>
         </div>
